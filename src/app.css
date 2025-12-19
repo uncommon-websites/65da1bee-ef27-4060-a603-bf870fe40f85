@@ -38,6 +38,16 @@
 	--color-secondary-900: oklch(30% 0.1 30);
 	--color-secondary-950: oklch(20% 0.11 30);
 
-	--font-body: var(--font-family), var(--font-fallback);
-	--font-display: var(--font-body);
+	--font-body: "Inter", sans-serif;
+	--font-display: "Inter", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--font-body);
 }
